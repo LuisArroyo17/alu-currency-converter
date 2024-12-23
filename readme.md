@@ -13,3 +13,33 @@ Este proyecto es un conversor de monedas en Java que utiliza la API [Exchange Ra
 
 - **Java 11 o superior**: Requerido para utilizar la biblioteca `HttpClient`.
 - **Biblioteca Gson**: Para analizar y manejar respuestas JSON.
+
+# EJEMPLO DE USO
+=== Conversor de Monedas ===
+1. Convertir Moneda
+2. Mostrar Historial de Conversiones
+3. Salir
+Seleccione una opción: 1
+
+Ingrese la moneda de origen (e.g., USD): USD
+Ingrese la moneda de destino (e.g., EUR): EUR
+Ingrese la cantidad: 100
+
+Resultado: 91.20 EUR
+
+=== Conversor de Monedas ===
+1. Convertir Moneda
+2. Mostrar Historial de Conversiones
+3. Salir
+Seleccione una opción: 2
+
+=== Historial de Conversiones ===
+2024-12-23 15:30:00: 100.00 USD -> 91.20 EUR
+
+=== Conversor de Monedas ===
+1. Convertir Moneda
+2. Mostrar Historial de Conversiones
+3. Salir
+Seleccione una opción: 3
+
+¡Gracias por usar el conversor de monedas!
